@@ -16,7 +16,7 @@ export const login = async (data) => {
     throw error;
   }
 };
-
+//git check
 export const signup = async (data) => {
   try {
     const response = await axios.post(`${API_URL}/signup`, data);
